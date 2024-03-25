@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculatrice Interactive</title>
+    <link rel="stylesheet" href="exo6.css">
+    <script src="exo6.js" defer></script>
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+        <button data-key="97" onclick="appendToDisplay('1')">1</button>
+        <button data-key="98" onclick="appendToDisplay('2')">2</button>
+        <button data-key="99" onclick="appendToDisplay('3')">3</button>
+        <button data-key="100" onclick="appendToDisplay('4')">4</button>
+        <button data-key="101" onclick="appendToDisplay('5')">5</button>
+        <button data-key="102" onclick="appendToDisplay('6')">6</button>
+        <button data-key="103" onclick="appendToDisplay('7')">7</button>
+        <button data-key="104" onclick="appendToDisplay('8')">8</button>
+        <button data-key="105" onclick="appendToDisplay('9')">9</button>
+        <button data-key="96" onclick="appendToDisplay('0')">0</button>
+        <button data-key="107" onclick="appendToDisplay('+')">+</button>
+        <button data-key="109" onclick="appendToDisplay('-')">-</button>
+        <button data-key="106" onclick="appendToDisplay('*')">*</button>
+        <button data-key="8" onclick="clearDisplay()">C</button>
+        <button data-key="187" onclick="calculateResult()">=</button>
+        <button data-key="111" onclick="appendToDisplay('/')">/</button>
+    </div>
+
+</body>
+
+</html>
